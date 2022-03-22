@@ -49,7 +49,7 @@ namespace Ejercicio_I01
             Console.Clear();
             Console.WriteLine("El valor mínimo ingresado es: {0}", minNumber);
             Console.WriteLine("El valor máximo ingresado es: {0}", maxNumber);
-            Console.WriteLine("El promedio de los números ingresados es: {0:#.00}", average);
+            Console.WriteLine("El promedio de los números ingresados es: {0:0#.00}", average);
         }
     }
 }
