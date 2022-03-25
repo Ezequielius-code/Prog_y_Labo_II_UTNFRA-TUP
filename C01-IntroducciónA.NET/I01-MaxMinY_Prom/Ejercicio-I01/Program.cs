@@ -25,7 +25,6 @@ namespace Ejercicio_I01
                     else
                     {
                         Console.WriteLine("ERROR. El dato ingresado no es válido.");
-                        validData = false;
                     }
                 }
 
@@ -33,12 +32,9 @@ namespace Ejercicio_I01
                 {
                     minNumber = enteredNumber;
                 }
-                else
+                else if (enteredNumber > maxNumber)
                 {
-                    if (enteredNumber > maxNumber)
-                    {
-                        maxNumber = enteredNumber;
-                    }
+                    maxNumber = enteredNumber;
                 }
 
                 numberAccum += enteredNumber;
