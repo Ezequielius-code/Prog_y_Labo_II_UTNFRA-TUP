@@ -22,7 +22,19 @@ namespace EjercicioI03
 
         public static int ConvertirBinarioADecimal(int numeroEntero) 
         {
-            return 99;
+            string numeroRecibido = numeroEntero.ToString();
+            char[] numeroBinario = numeroRecibido.ToCharArray();
+            int potencia = 0;
+            int numeroDecimal = 0;
+            for (int i = numeroBinario.Length - 1; i >= 0; i--)
+            {
+                if (numeroBinario[i] == '1')
+                {
+                    numeroDecimal += (int)Math.Pow(2, potencia);
+                }
+                potencia++;
+            }
+            return numeroDecimal;
         }
     }
 }

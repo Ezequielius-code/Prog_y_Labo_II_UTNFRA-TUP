@@ -6,7 +6,9 @@ namespace EjercicioI03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Conversor.ConvertirDecimalABinario(101));
+            Console.WriteLine(Conversor.ConvertirDecimalABinario(13));
+
+            Console.WriteLine(Conversor.ConvertirBinarioADecimal(10001));
         }
     }
 }
