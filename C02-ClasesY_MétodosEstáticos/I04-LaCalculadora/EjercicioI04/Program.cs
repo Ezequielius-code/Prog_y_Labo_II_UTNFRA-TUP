@@ -66,6 +66,7 @@ namespace EjercicioI04
                 {
                     validarRespuesta = false;
                 }
+                Console.Clear();
             }
         }
     }

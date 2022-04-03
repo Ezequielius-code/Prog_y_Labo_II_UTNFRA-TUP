@@ -28,6 +28,10 @@ namespace EjercicioI04
                     {
                         result = operando1 / operando2;
                     }
+                    else
+                    {
+                        result = double.MinValue;
+                    }
                     break;
             }
             return result;
