@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Gondola.Stock/1.0.0": {
+        "runtime": {
+          "Gondola.Stock.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gondola.Stock/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

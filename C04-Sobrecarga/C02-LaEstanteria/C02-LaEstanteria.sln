@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioC02", "EjercicioC02\EjercicioC02.csproj", "{B1860CD3-FD6E-46C8-A3A3-1E27A39A9C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gondola.Stock", "Gondola.Stock\Gondola.Stock.csproj", "{0692995A-A06C-4CD3-9DC9-B1722F1D5374}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1860CD3-FD6E-46C8-A3A3-1E27A39A9C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1860CD3-FD6E-46C8-A3A3-1E27A39A9C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1860CD3-FD6E-46C8-A3A3-1E27A39A9C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1860CD3-FD6E-46C8-A3A3-1E27A39A9C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0692995A-A06C-4CD3-9DC9-B1722F1D5374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0692995A-A06C-4CD3-9DC9-B1722F1D5374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0692995A-A06C-4CD3-9DC9-B1722F1D5374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0692995A-A06C-4CD3-9DC9-B1722F1D5374}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {284115EF-542F-4D6A-9BBA-4939AC7EE319}
+	EndGlobalSection
+EndGlobal
