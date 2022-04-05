@@ -6,4 +6,8 @@
     <RootNamespace>C_04</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\C-04Clase\C-04Clase.csproj" />
+  </ItemGroup>
+
 </Project>

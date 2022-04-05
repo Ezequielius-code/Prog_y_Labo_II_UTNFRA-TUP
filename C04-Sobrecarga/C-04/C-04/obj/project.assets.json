@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "C-04Clase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/C-04Clase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/C-04Clase.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "C-04Clase/1.0.0": {
+      "type": "project",
+      "path": "../C-04Clase/C-04Clase.csproj",
+      "msbuildProject": "../C-04Clase/C-04Clase.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "C-04Clase >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\PC\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Documentos\\Programación y Labo II\\Prog_y_Labo_II_UTNFRA-TUP\\C04-Sobrecarga\\C-04\\C-04Clase\\C-04Clase.csproj": {
+              "projectPath": "D:\\Documentos\\Programación y Labo II\\Prog_y_Labo_II_UTNFRA-TUP\\C04-Sobrecarga\\C-04\\C-04Clase\\C-04Clase.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
